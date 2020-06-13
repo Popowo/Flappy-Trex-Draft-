@@ -1,0 +1,37 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-image: url("dinowallpaper.jpg")  ;
+    background-size: 50%
+  }
+
+  
+  
+  .button1{
+    position: absolute;
+    left: 630px;
+    top: 300px;            
+  
+    
+    background-color:rgb(253, 156, 10); 
+   
+    color:black;
+    padding: 15px 32px;
+    text-align: center;
+   border-radius: 35px;
+    font-size: 25px;
+  }
+  .button1:hover{
+    -webkit-transform:  scale(2);
+    transform:  scale(2);
+  }
+  .text{
+    position: absolute;
+    left: 540px;
+    top: 120px;            
+    text-align: center;
+    font-size: 55px;
+    color:brown;
+    text-decoration-color: orange;
+    text-shadow: peru;
+  }
